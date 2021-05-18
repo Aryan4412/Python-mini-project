@@ -40,11 +40,11 @@ def my2():
                 break
             else:
                 flag = 0
-                r=("Strong Password")
+                r=("Strong Password!")
                 break
         
         if flag ==-1:
-            r=("Weak Password")
+            r=("Weak Password!")
         res.configure(text = "Result: " + r,font='Helvetica 11 bold')   
     
     nw2=Toplevel(root)
